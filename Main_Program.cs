@@ -11,9 +11,11 @@ class Program
 
         Console.WriteLine($"Nom : {name}");
         Console.WriteLine($"Age : {age}");
+        string x = "Ceci est un message à afficher.";
+        DisplayMessage(x);
     }
 
-    public void DisplayMessage(string message)
+    public static void DisplayMessage(string message)
     {
         Console.WriteLine(message);
     }
