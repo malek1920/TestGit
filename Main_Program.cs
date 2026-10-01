@@ -12,4 +12,9 @@ class Program
         Console.WriteLine($"Nom : {name}");
         Console.WriteLine($"Age : {age}");
     }
+
+    public void DisplayMessage(string message)
+    {
+        Console.WriteLine(message);
+    }
 }
